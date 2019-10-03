@@ -1,14 +1,14 @@
 <?php
 
-$idade = 39;
-$decimal = 2,356;
-$caractereAspaSimples = 'R';
-$caractereAspadupla = "R";
-$stringAspaSimples = 'Rodrigo';
-$stringAspaDupla = "Rodrigo";
-echo $idade.$stringAspaSimples;
+
+
+$resultado = mt_rand();
+if(mt_rand(1,5) == 3 || 5){
+    echo $resultado;
+}else{
+    echo "nao";
+}
 
 
 
-
-?>
+?>  
