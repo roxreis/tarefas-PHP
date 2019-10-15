@@ -1,4 +1,5 @@
 <?php
+//exercicio 4
 
 $cara = 0;
 $totalRodadas = 0;
